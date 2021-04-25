@@ -297,7 +297,7 @@ namespace LineBot_Twitch.Controllers
                     { "client_secret", "hus3zfndvcix8u2mgmps9ajsa4e30b" },
                     { "code", code },
                     { "grant_type", "authorization_code" },
-                    { "redirect_uri","https://f9e31151fe96.ngrok.io/Home/TwitchRedirect" }
+                    { "redirect_uri","https://linebottwitch20210410094254.azurewebsites.net/Home/TwitchRedirect" }
                 });
 
                 HttpResponseMessage resp = await http.SendAsync(req);
