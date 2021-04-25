@@ -11,12 +11,23 @@
     <Compile Remove="Controllers\LineTranslatorWebHookController.cs" />
     <Compile Remove="Controllers\LineWebHookController.cs" />
     <Compile Remove="Controllers\QnAservice.cs" />
+    <Compile Remove="Models\FlexMessage.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="LineBotSDK" Version="2.4.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="6.0.0-preview.3.21201.13" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="TwitchLib" Version="3.2.0" />
   </ItemGroup>
 
 </Project>
