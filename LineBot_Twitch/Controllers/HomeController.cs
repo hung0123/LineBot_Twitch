@@ -74,6 +74,7 @@ namespace LineBot_Twitch.Controllers
                         string twitchRedirect = _config["Twitch:AuthRedirect"];
                         var twitchLogin = twitchRedirect + $"&state={userID}";
                         responseMsg = twitchLogin;
+                        this.ReplyMessage(LineEvent.replyToken, responseMsg);
                     }
 
                     if (LineEvent.message.text == "追隨")
