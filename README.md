@@ -14,13 +14,13 @@ You can use this bot to get the streamer you following is stream or not
 
 ![LineBot](https://qr-official.line.me/sid/L/423jhgsa.png)
 
-2.Type "登入" in your LineBot
+2. Type "登入" in your LineBot
 
-3.Login with your Twitch
+3. Login with your Twitch
 
-4.Close the page
+4. Close the page
 
-5.Type "追隨" in your LineBot
+5. Type "追隨" in your LineBot
 
 
 
